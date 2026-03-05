@@ -1,7 +1,8 @@
-import { cdk } from 'projen';
-const project = new cdk.JsiiProject({
+import { awscdk } from 'projen';
+const project = new awscdk.AwsCdkConstructLibrary({
   author: 'Andrew Frazer',
   authorAddress: 'mrpackethead@users.noreply.github.com',
+  cdkVersion: '2.189.1',
   defaultReleaseBranch: 'main',
   jsiiVersion: '~5.9.0',
   name: 'raindancers-safemail',
