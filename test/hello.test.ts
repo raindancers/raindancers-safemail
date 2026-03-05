@@ -1,5 +1,7 @@
-import { Hello } from '../src';
+import { emailSecurity, bedrock } from '../src';
 
-test('hello', () => {
-  expect(new Hello().sayHello()).toBe('hello, world!');
+test('exports are defined', () => {
+  expect(emailSecurity.EmailSecurity).toBeDefined();
+  expect(emailSecurity.EmailReporting).toBeDefined();
+  expect(bedrock.BedrockModelId).toBeDefined();
 });

@@ -1,5 +1,2 @@
-export class Hello {
-  public sayHello() {
-    return 'hello, world!';
-  }
-}
+export * as bedrock from './bedrock';
+export * as emailSecurity from './emailsecurity';
