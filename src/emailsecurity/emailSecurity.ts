@@ -1,9 +1,5 @@
 import {
-
-
   aws_route53 as route53,
-
-
   custom_resources as cr,
 } from 'aws-cdk-lib';
 import * as core from 'aws-cdk-lib';
